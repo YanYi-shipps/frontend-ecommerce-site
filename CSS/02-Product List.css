@@ -1,0 +1,89 @@
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+.navbar-custom2 li:hover {
+  opacity: 1;
+  border-bottom: 3px solid black;
+}
+
+footer h2 {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+footer>ul,
+a:hover {
+  color: #fff;
+}
+
+footer>ul,
+a {
+  color: rgb(98, 26, 169);
+}
+
+
+body {
+  background-color: #fafafad7;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* span {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+ */
+.card:hover .card-btn {
+  visibility: visible;
+  background-color: gray;
+  color: white;
+}
+
+.card-btn {
+  visibility: hidden;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+
+.rounded-circle {
+  width: 15px;
+  height: 15px;
+}
+
+
+
+
+.sorting select {
+  background-color: rgba(128, 128, 128, 0.157);
+  padding: 10px 0px;
+  font-family: arial;
+  font-size: 15px;
+  cursor: pointer;
+  width: 100px
+}
+
+
+
+
+
+
+.pagination .page-item a.page-link {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: white;
+  color: black;
+}
